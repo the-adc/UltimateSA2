@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<ConfigSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonicretro.org">
+	<Groups>
+		<Group name="Options" display="Options">
+			<Property name="FastSomersault" display="Fast Somersault" type="Somersault" defaultvalue="Enabled">
+				<HelpText>When running, turns the Somersault into a slide that retains speed.
+				If you prefer the original animation, select "Enabled (No Slide)".</HelpText>
+			</Property>	
+			<Property name="ModernStyleGrinding" display="Modern Style Grinding" type="bool" defaultvalue="True">
+				<HelpText>Prevent falling off and hanging from the sides of rails, which causes speed loss. Named due to the result being similar to grinding in later games.</HelpText>
+			</Property>	
+			<Property name="RandomizedHomingSounds" display="Random Homing Attack Sounds" type="bool" defaultvalue="True">
+				<HelpText>Chooses randomly from a selection of 5 sounds for Sonic and Shadow every time they do a Homing Attack.</HelpText>
+			</Property>	
+			<Property name="RemoveHomingHeightLimit" display="Homing Attack At Low Heights" type="bool" defaultvalue="True">
+				<HelpText>Allows the Homing Attack to be used at less than 8 units above ground, which isn't allowed usually. Noticeable when jumping onto ledges.</HelpText>
+			</Property>	
+			<Property name="NoLowEnemyBounces" display="No Low Enemy Bounces" type="bool" defaultvalue="True">
+				<HelpText>Sonic and Shadow will always bounce high when hitting an enemy, rather than lower the longer A is held, which causes issues with certain chains.</HelpText>
+			</Property>	
+			<Property name="BounceFromLightAttack" display="Bounce up after Light Attack" type="bool" defaultvalue="True">
+				<HelpText>Bounce up after performing a Light Attack - just like a Homing attack, instead of immediately falling.</HelpText>
+			</Property>	
+			<Property name="AutoMagicHandsPrompt" display="Automatic Magic Hands Prompt" type="bool" defaultvalue="True">
+				<HelpText>Makes the Magic Hands prompt automatically appear when within range of an enemy.</HelpText>
+			</Property>	
+			<Property name="RunningMagicHandsDrop" display="No Magic Orbs While Running" type="bool" defaultvalue="False">
+				<HelpText>Sonic won't hold any enemies he picks up via Magic Hands while running.
+				Disabled by default because of how OP this is with the above.</HelpText>
+			</Property>	
+		</Group>
+	</Groups>
+	<Enums>
+		<Enum name = "Somersault">
+			<EnumMember name = "Enabled" />
+			<EnumMember name = "Enabled (No Slide)" />
+			<EnumMember name = "Disabled" />
+		</Enum>
+	</Enums>
+</ConfigSchema>

@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<ConfigSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonicretro.org">
+	<Groups>
+		<Group name="Sonic" display="Sonic Data">
+			<Property name="DCSonic" display="Sonic Models" type="SonicModel" defaultvalue="DC">	
+				<HelpText>Applies changes to Sonic's models and multiplayer costume.
+
+"No Change" must be set when this mod is combined with other Sonic model mods.
+
+"Trial" model settings load a variant of Sonic's model with his classic shoes.</HelpText>
+			</Property>
+			<Property name="DCSonicAnim" display="Sonic Animations" type="SonicAnim" defaultvalue="DC">	
+				<HelpText>Applies changes to Sonic's animations and camera angles. 
+
+"No Change" must be set when this mod is combined with other Sonic mods that alter animations.
+
+"Trial" has a different victory stance for Sonic.</HelpText>
+			</Property>
+			<Property name="SonicBoardAnim" display="Sonic Board Trick Animations" type="SonicBoard" defaultvalue="No Change">	
+				<HelpText>Applies changes to Sonic's board trick animations.</HelpText>
+			</Property>
+		</Group>
+		<Group name="Shadow" display="Shadow Data">
+			<Property name="DCShadow" display="Shadow Models" type="ShadowModel" defaultvalue="DC">
+				<HelpText>Applies changes to Shadow's models and multiplayer costume.
+
+"No Change" must be set when this mod is combined with other Shadow model mods.</HelpText>
+			</Property>
+			<Property name="DCShadowAnim" display="DC Shadow Animations" type="bool" defaultvalue="True">	
+				<HelpText>Applies changes to Shadow's animations and camera angles.</HelpText>
+			</Property>
+			<Property name="ShadowBoardAnim" display="Shadow Board Trick Animations" type="ShadowBoard" defaultvalue="No Change">	
+				<HelpText>Applies changes to Shadow's board trick animations.</HelpText>
+			</Property>
+			<Property name="BetaSuperShadowTex" display="Beta Super Shadow Texture" type="bool" defaultvalue="False">	
+				<HelpText>Changes Super Shadow's main body texture to a silver coloring.</HelpText>
+			</Property>
+		</Group>
+		<Group name="Tails" display="Tails Data">
+			<Property name="DCMechTails" display="Mech Tails Models" type="MechTailsModel" defaultvalue="DC">	
+				<HelpText>Applies changes to Mech Tails' models and multiplayer costume.
+
+"No Change" must be set when this mod is combined with other Mech Tails model mods.</HelpText>
+			</Property>
+			<Property name="DCMTailsAnim" display="DC Mech Tails Animations" type="bool" defaultvalue="True">	
+				<HelpText>Applies changes to Mech Tails' animations.</HelpText>
+			</Property>	
+			<Property name="DCTails" display="DC Tails Models" type="bool" defaultvalue="True">
+				<HelpText>Applies changes to Tails' models.
+				
+"No Change" must be set when this mod is combined with other mechless Tails model mods.</HelpText>
+			</Property>
+			<Property name="DCTailsAnim" display="DC Tails Animations" type="bool" defaultvalue="True">	
+				<HelpText>Applies changes to Tails' animations.</HelpText>
+			</Property>
+		</Group>
+		<Group name="Eggman" display="Eggman Data">
+			<Property name="DCMechEggman" display="Mech Eggman Models" type="MechEggmanModel" defaultvalue="DC">
+				<HelpText>Applies changes to Mech Eggman's models and multiplayer costume.
+
+"No Change" must be set when this mod is combined with other Mech Eggman model mods.</HelpText>
+			</Property>
+			<Property name="DCMEggmanAnim" display="DC Mech Eggman Animations" type="bool" defaultvalue="True">	
+				<HelpText>Applies changes to Mech Eggman's animations and camera angles.</HelpText>
+			</Property>
+			<Property name="DCEggman" display="DC Eggman Models" type="bool" defaultvalue="True">
+				<HelpText>Applies changes to Eggman's models.
+				
+"No Change" must be set when this mod is combined with other mechless Eggman model mods.</HelpText>
+			</Property>
+			<Property name="DCEggmanAnim" display="DC Eggman Animations" type="bool" defaultvalue="True">	
+				<HelpText>Applies changes to Eggman's animations.</HelpText>
+			</Property>
+		</Group>
+		<Group name="Knuckles" display="Knuckles Data">
+			<Property name="DCKnuckles" display="Knuckles Models" type="KnucklesModel" defaultvalue="DC">
+				<HelpText>Applies changes to Knuckles' models and multiplayer costume.
+
+"No Change" must be set when this mod is combined with other Knuckles model mods.</HelpText>
+			</Property>
+			<Property name="DCKnucklesAnim" display="DC Knuckles Animations" type="bool" defaultvalue="True">	
+				<HelpText>Applies changes to Knuckles' animations and camera angles.</HelpText>
+			</Property>
+			<Property name="KnucklesSunglasses" display="Beta Knuckles Sunglasses" type="bool" defaultvalue="False">	
+				<HelpText>Changes Knuckles' Sunglasses upgrade model to use its beta design in gameplay.</HelpText>
+			</Property>
+		</Group>
+		<Group name="Rouge" display="Rouge Data">
+			<Property name="DCRouge" display="Rouge Models" type="RougeModel" defaultvalue="DC">
+				<HelpText>Applies changes to Rouge's models and multiplayer costume.
+
+"No Change" must be set when this mod is combined with other Rouge model mods.</HelpText>
+			</Property>
+			<Property name="DCRougeWings" display="DC Rouge Wings" type="bool" defaultvalue="True">	
+				<HelpText>Applies changes to Rouge's wing models.</HelpText>
+			</Property>
+			<Property name="DCRougeAnim" display="DC Rouge Animations" type="bool" defaultvalue="True">	
+				<HelpText>Applies changes to Rouge's animations and camera angles.</HelpText>
+			</Property>	
+		</Group>
+		<Group name="Amy" display="Amy Data">
+			<Property name="DCAmy" display="DC Amy Models" type="bool" defaultvalue="True">
+				<HelpText>Applies changes to Amy's models.</HelpText>
+			</Property>
+			<Property name="DCAmyAnim" display="DC Amy Animations" type="bool" defaultvalue="True">	
+				<HelpText>Applies changes to Amy's animations and camera angles.</HelpText>
+			</Property>
+			<Property name="AmyBoardAnim" display="Amy Board Trick Animations" type="AmyBoard" defaultvalue="No Change">	
+				<HelpText>Applies changes to Amy's board trick animations.</HelpText>
+			</Property>
+		</Group>
+		<Group name="MetalSonic" display="Metal Sonic Data">
+			<Property name="DCMetalSonic" display="DC Metal Sonic Models" type="bool" defaultvalue="True">
+				<HelpText>Applies changes to Metal Sonic's models.</HelpText>
+			</Property>
+			<Property name="DCMetalSonicAnim" display="DC Metal Sonic Animations" type="bool" defaultvalue="True">	
+				<HelpText>Applies changes to Metal Sonic's animations and camera angles.</HelpText>
+			</Property>
+			<Property name="MetalSonicBoardAnim" display="Metal Sonic Board Trick Animations" type="MetalSonicBoard" defaultvalue="No Change">	
+				<HelpText>Applies changes to Metal Sonic's board trick animations.</HelpText>
+			</Property>
+			<Property name="MetalSonicEffTex" display="Metal Sonic DC Effect Textures" type="bool" defaultvalue="True">	
+				<HelpText>Allows Metal Sonic to use a separate texture pack for his ball/dash aura, Fire Somersault, and warp effects.</HelpText>
+			</Property>
+		</Group>
+		<Group name="ChaoWalker" display="Chao Walker Data">
+			<Property name="DCChaoWalker" display="DC Chao Walker Models" type="bool" defaultvalue="True">
+				<HelpText>Applies changes to Chao Walker's models.</HelpText>
+			</Property>
+			<Property name="DCChaoWalkerAnim" display="DC Chao Walker Animations" type="bool" defaultvalue="True">	
+				<HelpText>Applies changes to Chao Walker's animations and camera angles.</HelpText>
+			</Property>
+		</Group>
+		<Group name="DarkChaoWalker" display="Dark Chao Walker Data">
+			<Property name="DarkChaoWalker" display="Dark Chao Walker" type="DarkChaoWalkerModel" defaultvalue="Big the Cat">
+				<HelpText>This sets Dark Chao Walker's models and animations to remain the same or switch over to those used for Big in Eggman's mech.</HelpText>
+			</Property>
+		</Group>
+		<Group name="Tikal" display="Tikal Data">
+			<Property name="DCTikal" display="DC Tikal Models" type="bool" defaultvalue="True">
+				<HelpText>Applies changes to Tikal's models.</HelpText>
+			</Property>
+			<Property name="DCTikalAnim" display="DC Tikal Animations" type="bool" defaultvalue="True">	
+				<HelpText>Applies changes to Tikal's animations and camera angles.</HelpText>
+			</Property>
+			</Group>
+		<Group name="Chaos" display="Chaos Data">
+			<Property name="DCChaos" display="DC Chaos Models" type="bool" defaultvalue="True">
+				<HelpText>Applies changes to Chaos Zero's models.</HelpText>
+			</Property>
+			<Property name="DCChaosAnim" display="DC Chaos Animations" type="bool" defaultvalue="True">	
+				<HelpText>Applies changes to Chaos Zero's animations and camera angles.</HelpText>
+			</Property>
+			<Property name="ChaosTexAnim" display="DC Chaos Texture Animation" type="bool" defaultvalue="False">	
+				<HelpText>If enabled, this gives DC Chaos the falling water effect that his updated model uses. This also enables the effect for the 2P Battle screen.</HelpText>
+			</Property>
+		</Group>
+		<Group name="Extras" display="Extras">
+			<Property name="DCBattle" display="Modified Characters on 2P Battle Screen" type="bool" defaultvalue="True">	
+				<HelpText>Applies changes to the 2P Battle screen models, depending on which model variants and settings are enabled for gameplay.</HelpText>
+			</Property>
+			<Property name="DCLifeIcons" display="Dreamcast Life Icons" type="bool" defaultvalue="True">	
+				<HelpText>If enabled, this changes the life icons to those of the Dreamcast version for each character that is set to use one of their DC models.</HelpText>
+			</Property>
+			<Property name="DCStartEndPos" display="Dreamcast Start/End Positions" type="bool" defaultvalue="True">	
+				<HelpText>If enabled, this changes the start/ending positions for certain levels to match the Dreamcast version.
+
+If Sonic is set to either of his "Trial" models, his start/ending data will switch to the positions found in SA2: The Trial.</HelpText>
+			</Property>
+			<Property name="DisableSpBG" display="Disable Special Attack Backgrounds" type="bool" defaultvalue="True">	
+				<HelpText>Disables all special attack backgrounds.</HelpText>
+			</Property>
+			<Property name="DCCloneChars" display="DC Multiplayer Clones" type="bool" defaultvalue="False">	
+				<HelpText>If enabled, the multiplayer-only characters will become clones of their main counterparts. Their physics values and special attack properties will take on the characteristics of their main counterparts.</HelpText>
+			</Property>
+		</Group>
+	</Groups>
+	<Enums>
+		<Enum name = "SonicModel">
+			<EnumMember name = "No Change" />
+			<EnumMember name = "DC" />
+			<EnumMember name = "DC Alternate" />
+			<EnumMember name = "Trial (Gray Soles)" />
+			<EnumMember name = "Trial (Red Soles)" />
+			<EnumMember name = "Halloween" />
+			<EnumMember name = "Christmas" />
+		</Enum>
+		<Enum name = "SonicAnim">
+			<EnumMember name = "No Change" />
+			<EnumMember name = "DC" />
+			<EnumMember name = "Trial" />
+		</Enum>
+		<Enum name = "ShadowModel">
+			<EnumMember name = "No Change" />
+			<EnumMember name = "DC" />
+			<EnumMember name = "DC Alternate" />
+			<EnumMember name = "Halloween" />
+			<EnumMember name = "Christmas" />
+		</Enum>
+		<Enum name = "KnucklesModel">
+			<EnumMember name = "No Change" />
+			<EnumMember name = "DC" />
+			<EnumMember name = "DC Alternate" />
+			<EnumMember name = "Halloween" />
+			<EnumMember name = "Christmas" />
+		</Enum>
+		<Enum name = "RougeModel">
+			<EnumMember name = "No Change" />
+			<EnumMember name = "DC" />
+			<EnumMember name = "DC Alternate" />
+			<EnumMember name = "Halloween" />
+			<EnumMember name = "Christmas" />
+		</Enum>
+		<Enum name = "MechTailsModel">
+			<EnumMember name = "No Change" />
+			<EnumMember name = "DC" />
+			<EnumMember name = "DC Alternate" />
+			<EnumMember name = "Halloween" />
+			<EnumMember name = "Christmas" />
+		</Enum>
+		<Enum name = "MechEggmanModel">
+			<EnumMember name = "No Change" />
+			<EnumMember name = "DC" />
+			<EnumMember name = "DC Alternate" />
+			<EnumMember name = "Halloween" />
+			<EnumMember name = "Christmas" />
+			<EnumMember name = "???" />
+		</Enum>
+		<Enum name = "DarkChaoWalkerModel">
+			<EnumMember name = "Dark Chao Walker" />
+			<EnumMember name = "Big the Cat" />
+		</Enum>
+		<Enum name = "SonicBoard">
+			<EnumMember name = "No Change" />
+			<EnumMember name = "Sonic" />
+			<EnumMember name = "Trial" />
+			<EnumMember name = "Shadow" />
+			<EnumMember name = "Amy" />
+			<EnumMember name = "Metal Sonic" />
+		</Enum>
+		<Enum name = "ShadowBoard">
+			<EnumMember name = "No Change" />
+			<EnumMember name = "Sonic" />
+			<EnumMember name = "Trial" />
+			<EnumMember name = "Shadow" />
+			<EnumMember name = "Amy" />
+			<EnumMember name = "Metal Sonic" />
+		</Enum>
+		<Enum name = "AmyBoard">
+			<EnumMember name = "No Change" />
+			<EnumMember name = "Sonic" />
+			<EnumMember name = "Trial" />
+			<EnumMember name = "Shadow" />
+			<EnumMember name = "Amy" />
+			<EnumMember name = "Metal Sonic" />
+		</Enum>
+		<Enum name = "MetalSonicBoard">
+			<EnumMember name = "No Change" />
+			<EnumMember name = "Sonic" />
+			<EnumMember name = "Trial" />
+			<EnumMember name = "Shadow" />
+			<EnumMember name = "Amy" />
+			<EnumMember name = "Metal Sonic" />
+		</Enum>
+	</Enums>
+</ConfigSchema>

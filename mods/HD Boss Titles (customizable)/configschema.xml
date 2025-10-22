@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<ConfigSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonicretro.org">
+	<Groups>
+		<Group name="Style">
+			<Property name="BossTitlesStyle" display="Boss Titles Style" type="BossTitlesStyle" defaultvalue="PC">
+				<HelpText>Set a graphic style for King Boom Boo, Biolizard and Finalhazard boss titles (PC or DC/GC).</HelpText>
+			</Property>			
+		</Group>
+		<Group name="CustomizationDefault" display="Boss titles customization (default characters)">
+			<Property name="SonicTitle" display="Sonic Title" type="string" defaultvalue="Sonic">
+				<HelpText>Set custom boss title for Sonic. Supported letters: Latin alphabet (case-insensitive), digits, space, .,'!?</HelpText>
+			</Property>
+			<Property name="TailsTitle" display="Tails Title" type="string" defaultvalue="Tails">
+				<HelpText>Set custom boss title for Tails. Supported letters: Latin alphabet (case-insensitive), digits, space, .,'!?</HelpText>
+			</Property>
+			<Property name="KnucklesTitle" display="Knuckles Title" type="string" defaultvalue="Knuckles">
+				<HelpText>Set custom boss title for Knuckles. Supported letters: Latin alphabet (case-insensitive), digits, space, .,'!?</HelpText>
+			</Property>
+			<Property name="ShadowTitle" display="Shadow Title" type="string" defaultvalue="Shadow">
+				<HelpText>Set custom boss title for Shadow. Supported letters: Latin alphabet (case-insensitive), digits, space, .,'!?</HelpText>
+			</Property>
+			<Property name="EggmanTitle" display="Eggman Title" type="string" defaultvalue="Dr.Eggman">
+				<HelpText>Set custom boss title for Eggman. Supported letters: Latin alphabet (case-insensitive), digits, space, .,'!?</HelpText>
+			</Property>
+			<Property name="RougeTitle" display="Rouge Title" type="string" defaultvalue="Rouge">
+				<HelpText>Set custom boss title for Rouge. Supported letters: Latin alphabet (case-insensitive), digits, space, .,'!?</HelpText>
+			</Property>
+		</Group>
+		<Group name="CustomizationAlt" display="Boss titles customization (alternate characters)">
+			<Property name="AmyTitle" display="Amy Title" type="string" defaultvalue="Amy">
+				<HelpText>Set custom boss title for Amy. Supported letters: Latin alphabet (case-insensitive), digits, space, .,'!?</HelpText>
+			</Property>
+			<Property name="MetalSonicTitle" display="Metal Sonic Title" type="string" defaultvalue="Metal Sonic">
+				<HelpText>Set custom boss title for Metal Sonic. Supported letters: Latin alphabet (case-insensitive), digits, space, .,'!?</HelpText>
+			</Property>
+			<Property name="TikalTitle" display="Tikal Title" type="string" defaultvalue="Tikal">
+				<HelpText>Set custom boss title for Tikal. Supported letters: Latin alphabet (case-insensitive), digits, space, .,'!?</HelpText>
+			</Property>
+			<Property name="ChaosTitle" display="Chaos Title" type="string" defaultvalue="Chaos">
+				<HelpText>Set custom boss title for Chaos. Supported letters: Latin alphabet (case-insensitive), digits, space, .,'!?</HelpText>
+			</Property>
+			<Property name="ChaoWalkerTitle" display="Chao Walker Title" type="string" defaultvalue="Chao">
+				<HelpText>Set custom boss title for Chao Walker. Supported letters: Latin alphabet (case-insensitive), digits, space, .,'!?</HelpText>
+			</Property>
+			<Property name="DarkChaoTitle" display="Dark Chao Title" type="string" defaultvalue="Dark Chao">
+				<HelpText>Set custom boss title for Dark Chao Walker. Supported letters: Latin alphabet (case-insensitive), digits, space, .,'!?</HelpText>
+			</Property>
+		</Group>		
+	</Groups>
+	<Enums>
+		<Enum name = "BossTitlesStyle">
+			<EnumMember name = "PC" />
+			<EnumMember name = "DC/GC" display = "Dreamcast/Gamecube" />
+		</Enum>
+	</Enums>
+</ConfigSchema>

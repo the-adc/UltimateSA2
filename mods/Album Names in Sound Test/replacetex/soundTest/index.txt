@@ -1,0 +1,3 @@
+9001317,stest_others.png,1024x1024
+9001318,stest_stage.png,1024x1024
+9001319,stest_tuika.png,1024x512
