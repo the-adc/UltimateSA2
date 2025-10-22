@@ -5,17 +5,17 @@ If you redistribute this you will get your hands cut
 ### List of mods:
 
  - **SA2 Render Fix** by Shaddatic, Exant, Speeps  
- - **Chao World Extended** by Darkybenji, Exant, Mind  
+ - **Chao World Extended** by Darkybenji, Exant, Mindacos, CGBuster, Shaddatic, Krzys2, Nostalgia Ninja, AWildDaydreamer, Justin113D, Erubbu, Soep Hond  
  - **Amy Backless Dress** by edk540  
  - **Better Radar** by Kell, Kesnos, Speeps  
  - **HD GUI for SA2** by Speeps/Windii  
- - **Character Select Plus** by Justin113D, MainMemory  
- - **HD GUI for Character Select Plus** by Speeps, Windii, CheatFrt  
+ - **Character Select Plus** by Justin113D, MainMemory, Exant  
+ - **HD GUI for Character Select Plus** by Speeps, Windii, CheatFreak  
  - **Cutscene Revamp** by Speeps/End User  
  - **Dreamcast Characters** by End User  
  - **Dreamcast Ghost Room** by Accelerate  
- - **Dreamcast Mech Grunts** by Shaddatic & -IDEXTERIT  
- - **Enhanced Chao World** by Shaddatic, Exant, Speeps  
+ - **Dreamcast Mech Grunts** by Shaddatic & -[DEXTERITY]-  
+ - **Enhanced Chao World** by Shaddatic, Exant, Speeps, AmberZeChao, ItsEasyActually, Krzys2 & AWildDaydreamer 
  - **Enhanced City Escape** by Shaddatic  
  - **Event Timescale Fix** by Luks_18  
  - **HedgePanel** by Speeps  
@@ -27,7 +27,7 @@ If you redistribute this you will get your hands cut
  - **Partial DC Fog Restoration (Complete Edition)** by Firebow59  
  - **Piece Expansion** by En Passant  
  - **PrisonL Fog Restore** by HoppyBoppyBunny  
- - **Retranslated Story -COMPLETE-** by Sanglish (Mod / Extra Tr)  
+ - **Retranslated Story -COMPLETE-** by Sanglish, Windii  
  - **Retranslated Hints** by Sanglish  
  - **Reworked Afterimages** by End User  
  - **Rouge's eye animation Fix** by Sonen10  
@@ -52,4 +52,4 @@ If you redistribute this you will get your hands cut
  - **HQ Chao Sounds** by FrankT  
  - **Better Klee One (Subtitle Font)** by pattaconna
 
-### **IF YOUR MOD IS IN THIS PACK AND YOU WISH FOR IT TO BE REMOVED, PLEASE CONTACT ME.**
+### **IF YOUR MOD IS IN THIS PACK AND IT IS NOT CREDITED OR YOU WISH FOR IT TO BE REMOVED, PLEASE CONTACT ME.**
