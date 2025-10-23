@@ -1,3 +1,5 @@
+![Sonic Adventure 2](https://cdn2.steamgriddb.com/logo/c3bba4500b8e43374b046de170bf4d67.png)
+
 # DISCLAIMER
 This is not officially related to BetterSADX, this is just a personal repository for me to share my favorite Sonic Adventure 2 enhancement mods with my friends.
 If you redistribute this you will get your hands cut
